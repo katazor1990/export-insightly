@@ -1,0 +1,793 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addChild"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"chil",
+				"child"
+			],
+			[
+				"chi",
+				"children"
+			],
+			[
+				"pri",
+				"private"
+			],
+			[
+				"packer",
+				"packerPath"
+			],
+			[
+				"vm",
+				"vmName"
+			],
+			[
+				"new",
+				"new_resource"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"col",
+				"col-save"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"previe",
+				"Preview"
+			],
+			[
+				"input",
+				"input-group"
+			],
+			[
+				"up",
+				"updateNeeded"
+			],
+			[
+				"id",
+				"idKey"
+			],
+			[
+				"di",
+				"dictionary"
+			],
+			[
+				"matc",
+				"matchValue"
+			],
+			[
+				"list",
+				"listKey"
+			],
+			[
+				"api",
+				"apiRoot"
+			],
+			[
+				"graylog",
+				"graylog-server"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"backu",
+				"backup"
+			],
+			[
+				"dev-",
+				"dev-restart"
+			],
+			[
+				"buil",
+				"build"
+			],
+			[
+				"opp",
+				"opportunities"
+			],
+			[
+				"coun",
+				"counts"
+			],
+			[
+				"co",
+				"contacts"
+			],
+			[
+				"cin",
+				"contactIDs"
+			],
+			[
+				"get",
+				"getFilter"
+			],
+			[
+				"piplei",
+				"pipelines"
+			],
+			[
+				"API",
+				"APIcontactsData"
+			],
+			[
+				"cache",
+				"cacheTime"
+			],
+			[
+				"AP",
+				"APIcontactData"
+			],
+			[
+				"STAGE",
+				"STAGE_ID"
+			],
+			[
+				"filte",
+				"filterName"
+			],
+			[
+				"fil",
+				"filterName"
+			],
+			[
+				"array_fil",
+				"array_filter"
+			],
+			[
+				"h",
+				"hello"
+			],
+			[
+				"pi",
+				"pipeline"
+			],
+			[
+				"PIPE",
+				"pipelineID"
+			],
+			[
+				"pip",
+				"pipeline"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"ca",
+				"cacheFile"
+			],
+			[
+				"cahe",
+				"cacheTime"
+			],
+			[
+				"pipe",
+				"pipeFile"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"date",
+				"dateCheck"
+			],
+			[
+				"file_",
+				"file_put_contents"
+			],
+			[
+				"getpi",
+				"getPipelineStages"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"compo",
+				"composer"
+			],
+			[
+				"docker",
+				"docker-php"
+			],
+			[
+				"dev",
+				"dev-stop"
+			],
+			[
+				"p",
+				"php"
+			],
+			[
+				"bui",
+				"build"
+			],
+			[
+				"fi",
+				"file\tfile"
+			],
+			[
+				"pat",
+				"path"
+			],
+			[
+				"log",
+				"logd\tlog debug"
+			],
+			[
+				"lo",
+				"logd\tlog debug"
+			],
+			[
+				"to",
+				"toKeep"
+			],
+			[
+				"pa",
+				"package\tpackage"
+			],
+			[
+				"coo",
+				"cookbook_file\tcookbook_file"
+			],
+			[
+				"cook",
+				"Cookbook"
+			],
+			[
+				"say",
+				"say_bye"
+			],
+			[
+				"sa",
+				"say_bye"
+			],
+			[
+				"name",
+				"names"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 152.0,
+		"last_filter": "php",
+		"selected_items":
+		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"make",
+				"Build With: Make"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"package control:",
+				"Package Control: Install Package"
+			],
+			[
+				"package controle",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Snippet: package"
+			],
+			[
+				"j",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"J",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"jp",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"js",
+				"Pretty JSON: Validate"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"instaa",
+				"Package Control: Install Package"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ba",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 548.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/gsachot/tooling/export-insightly/.htaccess",
+		"/home/gsachot/tooling/export-insightly/index.php",
+		"/home/gsachot/exporter-insightly-temp/exporter-insightly/test/authentication.html",
+		"/home/gsachot/matlo/cookbooks/chef-tools/.gitlab-ci.yml",
+		"/home/gsachot/matlo/cookbooks/chef-tools/recipes/backup-server.rb",
+		"/home/gsachot/matlo/cookbooks/chef-tools/.rubocop.yml",
+		"/home/gsachot/matlo/cookbooks/chef-tools/resources/shared_folder.rb",
+		"/home/gsachot/matlo/cookbooks/chef-tools/resources/vm.rb",
+		"/home/gsachot/matlo/cookbooks/chef-tools/attributes/default-prometheus.rb",
+		"/home/gsachot/matlo/cookbooks/chef-tools/attributes/default-chef-client.rb",
+		"/usr/local/bin/rubocop",
+		"/home/gsachot/matlo/cookbooks/chef-tools/1",
+		"/home/gsachot/matlo/cookbooks/chef-tools/report.txt",
+		"/home/gsachot/matlo/cookbooks/chef-tools/.gitignore",
+		"/home/gsachot/matlo/cookbooks/chef-tools/metadata.rb",
+		"/home/gsachot/matlo/cookbooks/chef-tools/recipes/physical.rb",
+		"/home/gsachot/matlo/cookbooks/chef-tools/recipes/monitoring-server.rb",
+		"/home/gsachot/matlo/cookbooks/chef-tools/recipes/_utils-postgres-repo.rb",
+		"/home/gsachot/matlo/cookbooks/chef-tools/recipes/default.rb",
+		"/home/gsachot/matlo/cookbooks/chef-tools/attributes/default-path.rb",
+		"/home/gsachot/matlo/cookbooks/chef-tools/attributes/defaut-path.rb",
+		"/home/gsachot/matlo/cookbooks/chef-tools/recipes/_load.rb",
+		"/home/gsachot/matlo/cookbooks/chef-tools/attributes/default-matlo.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/attributes/default-prometheus.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/recipes/default.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/recipes/postgres.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/recipes/monitoring-client.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/attributes/default-matlo.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/recipes/physical.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/templates/vms/client.rb.erb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/Berksfile",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/templates/reverse/reverse.conf.erb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/attributes/default-node.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/attributes/default-chef-client.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/attributes/default-samba.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/attributes/defaut-path.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/resources/vm.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/attributes/default-jekyll.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/attributes/default-db.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/attributes/default-index.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/Vagrantfile",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/metadata.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/recipes/backend.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/recipes/elasticsearch.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/recipes/frontend.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/libraries/utils.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/templates/vms/interfaces.erb",
+		"/home/gsachot/Documents/exporter-insightly/test/bootstrap-3.3.7-dist/css/export.css",
+		"/home/gsachot/Documents/exporter-insightly/test/export-zone.html",
+		"/home/gsachot/Documents/exporter-insightly/test/saved-filters.html",
+		"/home/gsachot/Documents/exporter-insightly/test/bootstrap-3.3.7-dist/css/saved-filter.css",
+		"/home/gsachot/Documents/exporter-insightly/test/export-zone-header.html",
+		"/home/gsachot/Documents/exporter-insightly/test/bootstrap-3.3.7-dist/css/test.css",
+		"/home/gsachot/Documents/exporter-insightly/test/header.html",
+		"/home/gsachot/Documents/exporter-insightly/test/authentication.html",
+		"/home/gsachot/Documents/exporter-insightly/test/grilled-test.html",
+		"/home/gsachot/exporter-insightly/bootstrap-3.3.7-dist/css/bootstrap.css",
+		"/home/gsachot/exporter-insightly/test/layoutTest.html",
+		"/home/gsachot/exporter-insightly/grilled-test.html",
+		"/home/gsachot/exporter-insightly/test.css",
+		"/home/gsachot/exporter-insightly/test.html",
+		"/home/gsachot/exporter-insightly/authentication-test.html",
+		"/home/gsachot/Documents/scope-statement/export-insightly/documentation/user-scenaries.md",
+		"/home/gsachot/Documents/scope-statement/export-insightly/documentation/scope-statement.md",
+		"/home/gsachot/devops/cookbooks/graylog-client/recipes/rsyslog-install.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/libraries/api-rest.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/resources/api-syslog.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/Gemfile",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/metadata.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/recipes/api.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/attributes/api-default.rb",
+		"/home/gsachot/devops/cookbooks/graylog-c",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/recipes/rsyslog-install.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/recipes/rsyslog.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/recipes/server-default.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/recipes/graylog-server-install.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/resources/restclient.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/libraries/rest-server.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/libraries/rest-utils-server.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/attributes/java-default.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/attributes/graylog-default.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/attributes/elasticsearch-default.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/templates/rsyslog/49-remote.conf.erb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/templates/rsyslog/rsyslog.conf.erb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/recipes/default.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/attributes/rsyslog-default.rb",
+		"/home/gsachot/devops/cookbooks/graylog2-matlo/attributes/client-default.rb",
+		"/home/gsachot/devops/cookbooks/graylog-api/libraries/rest.rb ",
+		"/home/gsachot/devops/cookbooks/graylog-api/resources/../libraries/rest.rb ",
+		"/var/graylog-api/test.json",
+		"/home/gsachot/devops/cookbooks/graylog-api/recipes/default.rb",
+		"/home/gsachot/devops/cookbooks/graylog-api/resources/json_file.rb",
+		"/home/gsachot/devops/cookbooks/graylog-server/resources/restclient.rb",
+		"/home/gsachot/graylog-client-api/rubytest.rb",
+		"/home/gsachot/rubyhttp.rb",
+		"/home/gsachot/rubyTest/methotdTest.rb",
+		"/home/gsachot/devops/cookbooks/graylog-server/libraries/rest.rb",
+		"/home/gsachot/rubytest.rb",
+		"/usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb",
+		"/home/gsachot/devops/cookbooks/graylog-server/recipes/install.rb",
+		"/home/gsachot/devops/cookbooks/graylog-server/metadata.rb",
+		"/home/gsachot/devops/cookbooks/graylog-server/attributes/graylog.rb",
+		"/home/gsachot/devops/cookbooks/graylog-server/attributes/java.rb",
+		"/home/gsachot/devops/cookbooks/graylog-server/recipes/default.rb",
+		"/home/gsachot/devops/cookbooks/graylog-server/attributes/elasticsearch.rb",
+		"/home/gsachot/devops/cookbooks/graylog-server/attributes/default.rb",
+		"/home/gsachot/devops/cookbooks/graylog-server/attributes/graylog-server.rb",
+		"/home/gsachot/devops/cookbooks/graylog-client/attributes/default.rb",
+		"/home/gsachot/devops/cookbooks/graylog-client/templates/rsyslog/rsyslog.conf.erb",
+		"/home/gsachot/devops/cookbooks/graylog-client/attributes/rsyslog.rb",
+		"/home/gsachot/devops/cookbooks/graylog-client/recipes/default.rb",
+		"/home/gsachot/devops/cookbooks/graylog-client/templates/default/rsyslog.log.erb",
+		"/home/gsachot/devops/cookbooks/graylog-client/templates/default/48-remote-common.conf.erb",
+		"/etc/rsyslog.d/50-default.conf",
+		"/home/gsachot/devops/cookbooks/graylog-client/metadata.rb",
+		"/home/gsachot/devops/cookbooks/graylog-client/recipes/rsyslog.rb",
+		"/home/gsachot/devops/cookbooks/graylog-client/templates/49-remote.conf.erb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/recipes/backup-server.rb",
+		"/home/gsachot/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/gsachot/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/recipes/elastic-search.rb",
+		"/home/gsachot/matlo/cookbooks/chef-matlo/attributes/default.rb",
+		"/home/gsachot/matlo/cookbooks/gitlab/recipes/backup-server.rb",
+		"/home/gsachot/insightly-export/docker-php-app/statics/index.html",
+		"/home/gsachot/insightly-export/docker-php-app/less/layout.less",
+		"/home/gsachot/insightly-export/docker-php-app/src/client.php",
+		"/home/gsachot/insightly-export/docker-php-app/src/routing.php",
+		"/home/gsachot/insightly-export/docker-php-app/dev.make"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"/home/gsachot/insightly-export/docker-php-app/cache",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"  private",
+			"class Response",
+			"data",
+			"$app",
+			"  ",
+			"\t",
+			"authentication",
+			"end",
+			" => ",
+			" | ",
+			"node['virtualizer']['packer']['path']",
+			"new_resource.name",
+			"/",
+			"default['prometheus']",
+			" => ",
+			"error",
+			"false",
+			"falsr",
+			"DisplayCop",
+			"Dis",
+			"Display",
+			"cops",
+			"name",
+			"cops",
+			":debug",
+			"matlo::",
+			"java",
+			"path",
+			"['matlo']['slack']",
+			"['matlo']['organization']",
+			"HEAD",
+			"remote file",
+			"mac",
+			"node['monitors']",
+			"node['monitor']",
+			"services",
+			"matlo::user",
+			"log_location",
+			"location",
+			"localtion",
+			"\"\"",
+			"chef_environment",
+			"then",
+			"normal",
+			"virtualbox",
+			"packer_build",
+			"    cpu new_resource.cpu\n    memory new_resource.memory\n    interface node['network']['default_interface']\n    macaddress new_resource.mac",
+			"virtualbox_vm",
+			"['packer_build']",
+			"packer_build",
+			"showgitbranch",
+			"form-grou",
+			"load",
+			"validate",
+			"filters-form-group",
+			"ilters-form-group",
+			"filters-form-horizontal",
+			"id=\"basic-addon2\"",
+			"basic-addon2",
+			"fomr",
+			"btn-export",
+			"row-filter",
+			"sele",
+			"for",
+			"filter",
+			"row",
+			"col-filter",
+			"form⁻group",
+			"form group",
+			"btn",
+			"input-group-addon",
+			"col-md",
+			"col",
+			"class=\"form-group\"",
+			"form",
+			".form-horizontal .control-label",
+			"col-md-12-preview",
+			"form-hor",
+			"<span class=\"input-group-addon\" id=\"basic-",
+			"<span class=\"input-group-addon\" id=\"basic-addon2\">Opportunities</span>",
+			"Recipient's username",
+			"Password",
+			"row",
+			"btn btn-default",
+			"Sign in",
+			"<div class=\"form-group\">\n                  <label for=\"inputEmail3\" class=\"col-sm-2 control-label\">Email</label>\n                  <div class=\"col-sm-10\">\n                    <input type=\"email\" class=\"form-control\" id=\"inputEmail3\" />\n                  </div>\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"inputPassword3\" class=\"col-sm-2 control-label\">Password</label>\n                  <div class=\"col-sm-10\">\n                    <input type=\"password\" class=\"form-control\" id=\"inputPassword3\" />\n                  </div>\n                </div>",
+			"Email",
+			"email",
+			"Email",
+			"email",
+			"Email",
+			"<div class=\"form-group\"",
+			"div class=\"checkbox",
+			"checkbox",
+			"Remember me",
+			"btn",
+			"// ",
+			"  //",
+			"//",
+			"form-control",
+			"class=\"form-control\"",
+			"container > form",
+			"form.",
+			"form",
+			"container",
+			"containeer",
+			"form-control",
+			"btn",
+			"container",
+			"col",
+			"col-*",
+			"describ",
+			"cut",
+			"describ",
+			"#####",
+			"- Click on selectbox to visualize filters saves history\n- Select a filter\n- Click on Load button to load desired filter",
+			"from combobox and validate",
+			"custommer",
+			"Rest",
+			"get",
+			"item[",
+			"new_resource",
+			" =",
+			" identity: true",
+			"type",
+			"post",
+			"String, default: nil",
+			"@"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Form.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"interfa",
+				"templates/vms/interfaces.erb"
+			],
+			[
+				"export",
+				"test/export-zone.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 179.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
