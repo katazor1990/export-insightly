@@ -31,20 +31,4 @@ class TextElement {
   }
 }
 
-class SelectElement {
-
-  private
-    $id,
-    $option;
-
-  function __construct(String $id, Srting $option) {
-    $this->$id = $id;
-    $this->$option = $option;
-  }
-
-    public function htmlSelect
-
-
-}
-
 ?>
