@@ -1,6 +1,7 @@
 <?php
 
-require_once 'HtmlElement.php';
+require_once 'TextElement.php';
+require_once 'SelectElement.php';
 
 /**
 *

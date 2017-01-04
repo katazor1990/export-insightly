@@ -10,15 +10,18 @@ class Store
 
   function __construct(argument)
   {
-    # code...
+
   }
 
   public function set($key, $data) {
+    $this->key = $key;
+    $this->data = $data;
 
   }
 
   public function setJson($key, $data) {
-
+    $this->key = json_encode($key);
+    $this->data = json_encode($data);
   }
 
   public function setSession($key, $data) {
@@ -30,7 +33,8 @@ class Store
   }
 
   public function getJson($key) {
-
+    $this->key = json_decode($key);
+    return $this->key;
   }
 
   public function getSession($key) {
@@ -39,11 +43,10 @@ class Store
 
   public function setCacheDuration($cacheDuration) {
     $this->cacheDuration = $cacheDuration;
-    return $this;
   }
 
   public function getCacheDuration() {
-
+    return $this->cacheDuration;
   }
 
   public function loadPost() {
