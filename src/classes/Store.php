@@ -6,52 +6,70 @@
 class Store
 {
 
-  private $cacheDuration
+  private static
+    $_cacheDuration = 3600;
 
-  function __construct(argument)
-  {
+  function __construct() {}
 
+  public static function cacheDuration($cacheDuration = null) {
+    if ($cacheDuration != null)
+      self::$_cacheDuration = $cacheDuration;
+    return self::$_cacheDuration;
   }
 
-  public function set($key, $data) {
-    $this->key = $key;
-    $this->data = $data;
+  private static function method($key) {
+    $methods = array(
+      'user-status' => 'session',
+      'token' => 'session'
+    );
 
+    return isset($methods[$key]) ? $methods[$key] : false;
   }
 
-  public function setJson($key, $data) {
-    $this->key = json_encode($key);
-    $this->data = json_encode($data);
+  public static function get($key) {
+    $method = self::method($key);
+
+    switch ($method) {
+      case 'session':
+        $value = self::getFromSession($key);
+        break;
+
+      case 'cache':
+        $value = self::getFromCache($key);
+        break;
+
+      default:
+        break;
+    }
+
+    return $value;
   }
 
-  public function setSession($key, $data) {
+  public static function set($key, $value) {
+    $method = self::method($key);
 
+    switch ($method) {
+      case 'session':
+        self::setInSession($key, $value);
+        break;
+
+      case 'cache':
+        self::setInCache($key, $value);
+        break;
+
+      default:
+        break;
+    }
   }
 
-  public function get($key) {
-
+  private static function getFromSession($key, $value) {
+    return isset($_SESSION[$key]) ? $_SESSION[$key] : null;
   }
 
-  public function getJson($key) {
-    $this->key = json_decode($key);
-    return $this->key;
+  private static function setInSession($key, $value) {
+    $_SESSION[$key] = $value;
   }
 
-  public function getSession($key) {
-
-  }
-
-  public function setCacheDuration($cacheDuration) {
-    $this->cacheDuration = $cacheDuration;
-  }
-
-  public function getCacheDuration() {
-    return $this->cacheDuration;
-  }
-
-  public function loadPost() {
-
-  }
 }
 
 ?>

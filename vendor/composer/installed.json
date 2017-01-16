@@ -301,68 +301,6 @@
         "homepage": "https://symfony.com"
     },
     {
-        "name": "symfony/event-dispatcher",
-        "version": "v3.2.1",
-        "version_normalized": "3.2.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/event-dispatcher.git",
-            "reference": "e8f47a327c2f0fd5aa04fa60af2b693006ed7283"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/e8f47a327c2f0fd5aa04fa60af2b693006ed7283",
-            "reference": "e8f47a327c2f0fd5aa04fa60af2b693006ed7283",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.5.9"
-        },
-        "require-dev": {
-            "psr/log": "~1.0",
-            "symfony/config": "~2.8|~3.0",
-            "symfony/dependency-injection": "~2.8|~3.0",
-            "symfony/expression-language": "~2.8|~3.0",
-            "symfony/stopwatch": "~2.8|~3.0"
-        },
-        "suggest": {
-            "symfony/dependency-injection": "",
-            "symfony/http-kernel": ""
-        },
-        "time": "2016-10-13 06:29:04",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.2-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\EventDispatcher\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony EventDispatcher Component",
-        "homepage": "https://symfony.com"
-    },
-    {
         "name": "symfony/http-kernel",
         "version": "v3.2.1",
         "version_normalized": "3.2.1.0",
@@ -582,34 +520,49 @@
         ]
     },
     {
-        "name": "nategood/httpful",
-        "version": "0.2.20",
-        "version_normalized": "0.2.20.0",
+        "name": "symfony/event-dispatcher",
+        "version": "v3.2.1",
+        "version_normalized": "3.2.1.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/nategood/httpful.git",
-            "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6"
+            "url": "https://github.com/symfony/event-dispatcher.git",
+            "reference": "e8f47a327c2f0fd5aa04fa60af2b693006ed7283"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/nategood/httpful/zipball/c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
-            "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/e8f47a327c2f0fd5aa04fa60af2b693006ed7283",
+            "reference": "e8f47a327c2f0fd5aa04fa60af2b693006ed7283",
             "shasum": ""
         },
         "require": {
-            "ext-curl": "*",
-            "php": ">=5.3"
+            "php": ">=5.5.9"
         },
         "require-dev": {
-            "phpunit/phpunit": "*"
+            "psr/log": "~1.0",
+            "symfony/config": "~2.8|~3.0",
+            "symfony/dependency-injection": "~2.8|~3.0",
+            "symfony/expression-language": "~2.8|~3.0",
+            "symfony/stopwatch": "~2.8|~3.0"
         },
-        "time": "2015-10-26 16:11:30",
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2016-10-13 06:29:04",
         "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2-dev"
+            }
+        },
         "installation-source": "dist",
         "autoload": {
-            "psr-0": {
-                "Httpful": "src/"
-            }
+            "psr-4": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
@@ -617,20 +570,15 @@
         ],
         "authors": [
             {
-                "name": "Nate Good",
-                "email": "me@nategood.com",
-                "homepage": "http://nategood.com"
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
-        "homepage": "http://github.com/nategood/httpful",
-        "keywords": [
-            "api",
-            "curl",
-            "http",
-            "requests",
-            "rest",
-            "restful"
-        ]
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "https://symfony.com"
     }
 ]

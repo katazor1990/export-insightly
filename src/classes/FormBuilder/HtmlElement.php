@@ -10,7 +10,7 @@ class HtmlElement {
     $children,
     $properties;
 
-  function __construct(String $name, Bool $selfClose = false) {
+  function __construct($name, $selfClose = false) {
     $this->name = $name;
     $this->selfClose = $selfClose;
     $this->children = array();
@@ -26,12 +26,12 @@ class HtmlElement {
     return $this;
   }
 
-  public function addText(String $child) {
+  public function addText($child) {
     array_push($this->children, $child);
     return $this;
   }
 
-  public function addProperty(String $key,String $value) {
+  public function addProperty($key,$value) {
     $this->properties[$key] = $value;
     return $this;
   }
@@ -62,5 +62,4 @@ class HtmlElement {
     return $html;
   }
 }
-
 ?>
