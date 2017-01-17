@@ -45,37 +45,6 @@ $client1 = new ApiClient();
 //   return $response;
 // });
 
-// $app->get('/login', function(Request $request) {
-//   $status = $request->get('status', 'unattented');
-
-//   $formAuth = new Form('/login');
-//   $loginInput = new TextElement('login-token', 'Your insightly token');
-//   $loginSubmit = new SubmitElement('submit');
-
-//   $formAuth->addElement($loginInput);
-//   if ($status === 'failled') {
-//     $formAuth->addElement(new ParagraphElement('you failled please retry !'));
-//   }
-//   $formAuth->addElement($loginSubmit);
-
-//   $response = new Response();
-//   $response->setStatusCode(200,'OK');
-//   $response->setContent($formAuth->render());
-//   return $response;
-// });
-
-
-// $app->post('/login', function(Request $request) use($app, $client1) {
-
-// $token = $request->get('login-token', false);
-
-//   if($client1->login($token)) {
-//     return $app->redirect('/home');
-//   }else {
-//     return $app->redirect('/login?status=failled');
-//   }
-// });
-
 // $app->get('/home', function() {
 //   $home = new Home();
 //   $home->setHeader('Exporter-Insightly')
@@ -96,33 +65,33 @@ $client1 = new ApiClient();
 //   return $response;
 // });
 
-$app->post('/home', function(Request $request) use($app){
+// $app->post('/home', function(Request $request) use($app){
 
-  $formFiltre = new Form('/stage');
-  $selectorTest2 = new SelectElement('selectorTest2', 'stage');
-  $selectSubmit = new SubmitElement('Go');
+//   $formFiltre = new Form('/stage');
+//   $selectorTest2 = new SelectElement('selectorTest2', 'stage');
+//   $selectSubmit = new SubmitElement('Go');
 
-  $formFiltre->addElement($selectorTest2);
+//   $formFiltre->addElement($selectorTest2);
 
-  if($_POST['selectorTest']){
-    $redirect = $app->redirect('/home');
-    $selectorTest = new SelectElement('selectorTest2', 'stage');
-    $selectSubmit = new SubmitElement('Go');
+//   if($_POST['selectorTest']){
+//     $redirect = $app->redirect('/home');
+//     $selectorTest = new SelectElement('selectorTest2', 'stage');
+//     $selectSubmit = new SubmitElement('Go');
 
-    $formFiltre->addElement($selectorTest2);
-    $formFiltre->addElement($selectSubmit);
+//     $formFiltre->addElement($selectorTest2);
+//     $formFiltre->addElement($selectSubmit);
 
-    $response = new Response;
-    $response->setStatusCode(200,'OK');
-    // $response->setContent($redirect);
+//     $response = new Response;
+//     $response->setStatusCode(200,'OK');
+//     // $response->setContent($redirect);
 
-  return $redirect;
+//   return $redirect;
 
-  }else {
-    $formFiltre->addElement(new ParagraphElement('Please select an Element !'));
-    return $app->redirect('/home?status=failled');
-  }
-});
+//   }else {
+//     $formFiltre->addElement(new ParagraphElement('Please select an Element !'));
+//     return $app->redirect('/home?status=failled');
+//   }
+// });
 
 $app->post('/stage', function(Request $request) use($app, $client1){
 
@@ -155,5 +124,32 @@ $app->post('/stage', function(Request $request) use($app, $client1){
 // });
 
 ////////////////////////////////////////////////////////////////////////////////
+
+//////   TEST HOME CREATE WITH CLASS    /////////
+
+
+$app->get('/home', function() {
+
+  $home = new Home();
+  $form = new Form('Haute-Form');
+  $select = new SelectElement('Select', 'Pipeline');
+  $submit = new SubmitElement('Submit');
+
+  $form->addElement($select);
+  $form->addElement($submit);
+  $home->addForm($form);
+   var_dump($home);
+ exit();
+
+  // $home->setHeader();
+  // $home->setFooter();
+
+ $response = new Response;
+ $response->setStatusCode(200, 'Ok');
+ $response->setContent($home->render());
+
+
+ return $response;
+});
 
 ?>
