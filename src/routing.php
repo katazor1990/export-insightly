@@ -26,6 +26,14 @@ $client1 = new ApiClient();
 // $formFilter = new Form();
 
 
+$app->get('/test', function() {
+  $test = new Body();
+
+  $response = new Response;
+  $response->setStatusCode(200,'OK');
+  $response->setContent($test->render());
+});
+
 // $app->get('/home', function() {
 //   $formFiltre = new Form('/test/apiInsightlyRoute');
 //   $selectorTest = new SelectTest('selectorTest');
@@ -34,9 +42,9 @@ $client1 = new ApiClient();
 //   $formFiltre->addElement($selectorTest->);
 //   $formFiltre->addElement($selectSubmit);
 
-//   $response = new Response;
-//   $response->setStatusCode(200,'OK');
-//   $response->setContent($formFiltre->render());
+  // $response = new Response;
+  // $response->setStatusCode(200,'OK');
+  // $response->setContent($formFiltre->render());
 
 
 //   $repTest = new Response;
@@ -93,7 +101,7 @@ $client1 = new ApiClient();
 //   }
 // });
 
-$app->post('/stage', function(Request $request) use($app, $client1){
+$app->get('/stage', function(Request $request) use($app, $client1){
 
   $formFiltre = new Form('/state');
   $selectorTest = new SelectElement('selectorTest', 'state');
