@@ -10,7 +10,7 @@ use Symfony\Component\HttpFoundation\Request;
 // use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 // use Silex\Provider\FormServiceProvider;
 
-require ROOT.'/src/classes/FormBuilder/FormBuilder.php';
+require ROOT.'/src/classes/Builder/FormBuilder.php';
 
 require ROOT.'/src/classes/ApiClient.php';
 

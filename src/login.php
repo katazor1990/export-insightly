@@ -13,11 +13,19 @@ $app->get('/login', function(Request $request) {
   $formAuth = new Form('/login');
   $loginInput = new TextElement('login-token', 'Your insightly token');
   $loginSubmit = new SubmitElement('submit');
+  $test1 = new ParagraphElement('Test 1');
+  $test2 = new ParagraphElement(':) :) :) :)');
+  $test3 = new ParagraphElement('Test2');
+  $test4 = new ParagraphElement(':) :) :) :)');
 
   $formAuth->addElement($loginInput);
   if ($status === 'failled') {
     $formAuth->addElement(new ParagraphElement('you failled please retry !'));
   }
+  $formAuth->addElement($test1);
+  $formAuth->addElement($test2);
+  $formAuth->addElement($test3);
+  $formAuth->addElement($test4);
   $formAuth->addElement($loginSubmit);
 
   $response = new Response();

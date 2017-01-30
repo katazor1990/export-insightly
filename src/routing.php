@@ -10,7 +10,7 @@ use Symfony\Component\HttpFoundation\Request;
 // use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 // use Silex\Provider\FormServiceProvider;
 
-require ROOT.'/src/classes/FormBuilder/FormBuilder.php';
+require ROOT.'/src/classes/Builder/FormBuilder.php';
 
 require ROOT.'/src/classes/ApiClient.php';
 
@@ -22,40 +22,86 @@ require ROOT.'/src/login.php';
 
 // //////////////////////////    TEST WITH APICLIENT CLASS   ///////////////////
 
-$client1 = new ApiClient();
-// $formFilter = new Form();
+// $client1 = new ApiClient();
 
 
-$app->get('/test', function() {
-  $test = new Body();
+// $app->get('/test', function() {
+//   $test = new Body();
+//   $test->htmlElement();
 
-  $response = new Response;
-  $response->setStatusCode(200,'OK');
-  $response->setContent($test->render());
-});
+//   $response = new Response;
+//   $response->setStatusCode(200,'OK');
+//   $response->setContent($test->render());
+// });
 
-// $app->get('/home', function() {
-//   $formFiltre = new Form('/test/apiInsightlyRoute');
-//   $selectorTest = new SelectTest('selectorTest');
+// $app->get('/', function() {
+
+// $home = new Home;
+// $header = new Header();
+// $footer = new Footer();
+
+
+// $form = new Form('test');
+// $select = new SelectElement('test', 'test');
+// $submit = new SubmitElement('Go');
+
+// });
+
+// $app->get('/login', function() {
+
+//   $formAuth = new Form('/login');
+//   $loginInput = new TextElement('login-token', 'Your Insighty token');
+//   $loginSubmit = new SubmitElement('submit');
+
+//   $formAuth->addElement($loginInput);
+//   $formAuth->addElement($loginSubmit);
+
+//     $response = new Response;
+//     $response->setStatusCode(200, 'Ok');
+//     $response->setContent($formAuth->render());
+
+// });
+
+// $app->get('/login', function(Request $request) {
+
+//   $status = $request->get('status', 'unattended');
+
+//   $formAuth = new Form('/login');
+//   $loginInput = new TextElement('login-token', 'Your Insighty token');
+//   $loginSubmit = new SubmitElement('submit');
+
+//   $formAuth->addElement($loginInput);
+
+//     if($status === 'failled') {
+//       $formAuth->addElement(new ParagraphElement('You failled please retry !'));
+//     }
+//     $formAuth->addElement($loginSubmit);
+
+//     $response = new Response;
+//     $response->setStatusCode(200, 'Ok');
+//     $response->setContent($formAuth->render());
+
+// });
+
+
+// $app->get('/form', function() {
+//   $formFiltre = new Form('/testForm');
+//   $selectorTest = new SelectElement('selectorTest', 'test');
 //   $selectSubmit = new SubmitElement('Go');
 
-//   $formFiltre->addElement($selectorTest->);
+//   $formFiltre->addElement($selectorTest);
 //   $formFiltre->addElement($selectSubmit);
 
-  // $response = new Response;
-  // $response->setStatusCode(200,'OK');
-  // $response->setContent($formFiltre->render());
-
-
-//   $repTest = new Response;
-//   $repTest->setContent($formFiltre->render());
+//   $response = new Response;
+//   $response->setStatusCode(200,'OK');
+//   $response->setContent($formFiltre->render());
 
 //   return $response;
 // });
 
 // $app->get('/home', function() {
 //   $home = new Home();
-//   $home->setHeader('Exporter-Insightly')
+//   $home->setHeader('Exporter-Insightly');
 //   $formFiltre = new Form('/home');
 //   $selectorTest = new SelectElement('selectorTest', 'pipeline');
 //   $selectSubmit = new SubmitElement('Go');
@@ -101,21 +147,21 @@ $app->get('/test', function() {
 //   }
 // });
 
-$app->get('/stage', function(Request $request) use($app, $client1){
+// $app->post('/stage', function(Request $request) use($app, $client1){
 
-  $formFiltre = new Form('/state');
-  $selectorTest = new SelectElement('selectorTest', 'state');
-  $selectSubmit = new SubmitElement('Go');
+//   $formFiltre = new Form('/state');
+//   $selectorTest = new SelectElement('selectorTest', 'state');
+//   $selectSubmit = new SubmitElement('Go');
 
-  $formFiltre->addElement($selectorTest);
+//   $formFiltre->addElement($selectorTest);
 
-  if($_POST['selectorTest']){
-    return $app->redirect('/state');
-  }else {
-    $formFiltre->addElement(new ParagraphElement('Please select an Element!'));
-    return $app->redirect('/home?status=failled');
-  }
-});
+//   if($_POST['selectorTest']){
+//     return $app->redirect('/state');
+//   }else {
+//     $formFiltre->addElement(new ParagraphElement('Please select an Element!'));
+//     return $app->redirect('/home?status=failled');
+//   }
+// });
 
 // $app->post('/state', function(Request $request) use($app, $client1){
 
@@ -136,21 +182,32 @@ $app->get('/stage', function(Request $request) use($app, $client1){
 //////   TEST HOME CREATE WITH CLASS    /////////
 
 
+// $app->get('/home', function() {
+
+//   $home = new Home();
+//   // $form = new Form('Haute-Form');
+//   // $select = new SelectElement('Select', 'Pipeline');
+//   // $submit = new SubmitElement('Submit');
+
+//   // $form->addElement($select);
+//   // $form->addElement($submit);
+//   $home->addForm();
+
+
+//   $home->setHeader();
+//   $home->setFooter();
+
+//  $response = new Response;
+//  $response->setStatusCode(200, 'Ok');
+//  $response->setContent($home->render());
+
+
+//  return $response;
+// });
+
 $app->get('/home', function() {
+  $home = new Home;
 
-  $home = new Home();
-  $form = new Form('Haute-Form');
-  $select = new SelectElement('Select', 'Pipeline');
-  $submit = new SubmitElement('Submit');
-
-  $form->addElement($select);
-  $form->addElement($submit);
-  $home->addForm($form);
-   var_dump($home);
- exit();
-
-  // $home->setHeader();
-  // $home->setFooter();
 
  $response = new Response;
  $response->setStatusCode(200, 'Ok');

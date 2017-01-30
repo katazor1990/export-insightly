@@ -12,7 +12,7 @@ class Footer {
 
   public function htmlElement() {
     return (new HtmlElement('footer'))->addChild(
-      (new HtmlElement('h1'))->addText(
+      (new HtmlElement('p'))->addText(
         $this->text)
       );
   }
